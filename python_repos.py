@@ -12,7 +12,7 @@ print('Status code:', r.status_code)
 response_dict = r.json()
 print("Total repositories:", response_dict['total_count'])
 
-# 探索有关仓库的信息
+# 探索有关仓库的信息
 repo_dicts = response_dict['items']
 print('Resositorise returned:', len(repo_dicts))
 
